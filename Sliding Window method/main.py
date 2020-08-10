@@ -26,7 +26,7 @@ args = vars(ap.parse_args())
 
 WIDTH = 600
 PYR_SCALE = 1.5 
-WIN_STEP = 16
+WIN_STEP = 8
 ROI_SIZE = eval(args["size"])
 INPUT_SIZE = (224,224)
 
